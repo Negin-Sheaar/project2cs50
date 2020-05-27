@@ -7,20 +7,24 @@
 	border: 1px solid;
   	box-shadow: 5px 10px #9d93a3;
     	text-align: center;
-
-}
+      background-color: white;
+      }
 #homepage{
 	padding-top: 10px;
 }
 body{
-  background-image: url('../static/loginhomepage.jpg');
+
 	margin: 0;
 	height: 100%;
 	overflow: hidden;
   background-repeat: no-repeat;
+background-image: url('../static/loginhomepage.jpg');
+}
+#grad1 {
+height:100%;
+  background-color: #cccccc;
 
 }
-
 
 #outerdiv{
 	position: relative;

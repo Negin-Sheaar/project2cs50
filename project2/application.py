@@ -10,6 +10,7 @@ socketio = SocketIO(app)
 
 @app.route("/")
 def index():
+    
     return render_template("index.html")
 
 @socketio.on("submit user")
